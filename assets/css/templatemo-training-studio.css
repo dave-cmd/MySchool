@@ -672,6 +672,7 @@ features
 .feature-item {
   display: inline-block;
   margin-bottom: 60px;
+  margin-right: 60px;
 }
 
 .feature-item .left-icon img {
@@ -700,6 +701,11 @@ features
   text-transform: uppercase;
   color: #ed563b;
   font-weight: 500;
+}
+.features-items-yingyang {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
 }
 
 /*
@@ -1241,7 +1247,28 @@ responsive
 }
 
 @media (max-width: 450px) {
-  .feature-item .right-content a.text-button {
+  .right-content a.text-button {
     margin-left: 130px;
   }
+}
+
+/* My CSS*/
+
+.monkeys {
+  width: 100%;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .features-items-yingyang {
+    display: grid;
+    grid-template-columns: auto;
+  }  
+}
+
+@media (max-width: 950px) {
+  .features-items-yingyang {
+    display: grid;
+    grid-template-columns: auto auto;
+  } 
 }
