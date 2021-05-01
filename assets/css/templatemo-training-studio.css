@@ -1259,7 +1259,7 @@ responsive
   margin: auto;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .features-items-yingyang {
     display: grid;
     grid-template-columns: auto;
