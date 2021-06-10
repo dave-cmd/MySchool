@@ -1265,4 +1265,95 @@ responsive
     grid-template-columns: auto;
   }  
 }
+
+.bootcamp_h1 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 275px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+.bootcamp_h2{
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 30px; 
+  font-weight: 300; 
+  line-height: 32px; 
+  margin: 20px 0 72px; 
+  text-align: center; 
+}
+@media (max-width: 900px){
+  
+.bootcamp_h1 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 200px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+.bootcamp_h2{
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 20px; 
+  font-weight: 200; 
+  line-height: 25px; 
+  margin: 20px 0 72px; 
+  text-align: center; 
+}
+
+
+}
+
+@media (max-width: 450px) {
+  
+.bootcamp_h1 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 60px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+.bootcamp_h2{
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 13px; 
+  font-weight: 150; 
+  line-height: 20px; 
+  margin: 20px 0 72px; 
+  text-align: center; 
+}
+
+}
+@media(max-width: 700px)
+{
+  
+.bootcamp_h1 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 80px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+.bootcamp_h2{
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 12px; 
+  font-weight: 300; 
+  line-height: 17px; 
+  margin: 20px 0 72px; 
+  text-align: center; 
+}
+
 }
