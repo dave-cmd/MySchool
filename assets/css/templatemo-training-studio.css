@@ -1283,7 +1283,8 @@ responsive
   font-weight: 300; 
   line-height: 32px; 
   margin: 20px 0 72px; 
-  text-align: center; 
+  text-align: center;
+  padding: 20px; 
 }
 @media (max-width: 900px){
   
@@ -1304,7 +1305,8 @@ responsive
   font-weight: 200; 
   line-height: 25px; 
   margin: 20px 0 72px; 
-  text-align: center; 
+  text-align: center;
+  padding: 20px; 
 }
 
 
@@ -1329,7 +1331,8 @@ responsive
   font-weight: 150; 
   line-height: 20px; 
   margin: 20px 0 72px; 
-  text-align: center; 
+  text-align: center;
+  padding: 7px; 
 }
 
 }
@@ -1353,7 +1356,8 @@ responsive
   font-weight: 300; 
   line-height: 17px; 
   margin: 20px 0 72px; 
-  text-align: center; 
+  text-align: center;
+  padding: 10px; 
 }
 
 }
